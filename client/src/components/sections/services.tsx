@@ -44,25 +44,25 @@ export function Services() {
   return (
     <section className="bg-slate-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Engineering Services</h2>
-          <p className="text-xl text-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto stagger-1">
             Advanced simulation and design solutions that transform your engineering challenges into market-ready products
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="service-card bg-white hover:shadow-xl transition-all duration-300">
+            <Card key={index} className={`service-card bg-white hover:shadow-xl transition-all duration-300 fade-in stagger-${(index % 4) + 1}`}>
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-primary rounded-lg flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-primary rounded-lg flex items-center justify-center mb-6 transform hover:rotate-12 transition-transform duration-300">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{service.title}</h3>
                 <p className="text-secondary mb-6">{service.description}</p>
                 <ul className="text-sm text-secondary space-y-2">
                   {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center">
+                    <li key={featureIndex} className="flex items-center transform hover:translate-x-1 transition-transform duration-200">
                       <div className="w-4 h-4 bg-success rounded-full flex items-center justify-center mr-2">
                         <div className="w-2 h-2 bg-white rounded-full"></div>
                       </div>

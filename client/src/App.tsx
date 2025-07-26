@@ -13,7 +13,6 @@ import Services from "@/pages/services";
 import Industries from "@/pages/industries";
 import CaseStudies from "@/pages/case-studies";
 import Contact from "@/pages/contact";
-import Blog from "@/pages/blog";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -28,7 +27,6 @@ function Router() {
       <Route path="/industries" component={Industries} />
       <Route path="/case-studies" component={CaseStudies} />
       <Route path="/contact" component={Contact} />
-      <Route path="/blog" component={Blog} />
       <Route component={NotFound} />
     </Switch>
   );

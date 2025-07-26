@@ -20,7 +20,6 @@ export function Header() {
     { href: "/services", label: "Services" },
     { href: "/industries", label: "Industries" },
     { href: "/case-studies", label: "Case Studies" },
-    { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -55,8 +54,8 @@ export function Header() {
 
           <div className="hidden md:block">
             <Link href="/contact">
-              <Button className="bg-primary text-white hover:bg-blue-700">
-                Get Quote
+              <Button className="bg-primary text-white hover:bg-blue-700 transition-all duration-300">
+                Contact Us
               </Button>
             </Link>
           </div>

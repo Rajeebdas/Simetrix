@@ -40,16 +40,16 @@ export function Testimonials() {
   return (
     <section className="bg-slate-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
-          <p className="text-xl text-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto stagger-1">
             Trusted by manufacturers and startups worldwide for delivering exceptional engineering solutions
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials?.map((testimonial) => (
-            <Card key={testimonial.id} className="bg-white">
+          {testimonials?.map((testimonial, index) => (
+            <Card key={testimonial.id} className={`bg-white fade-in stagger-${(index % 3) + 1} transform hover:scale-105 hover:shadow-xl transition-all duration-300`}>
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
                   <div className="flex text-yellow-400">
@@ -60,7 +60,7 @@ export function Testimonials() {
                 </div>
                 <p className="text-secondary mb-6">{testimonial.content}</p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold">
+                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold transform hover:rotate-12 transition-transform duration-300">
                     <span>{testimonial.name.split(' ').map(n => n[0]).join('')}</span>
                   </div>
                   <div className="ml-4">
