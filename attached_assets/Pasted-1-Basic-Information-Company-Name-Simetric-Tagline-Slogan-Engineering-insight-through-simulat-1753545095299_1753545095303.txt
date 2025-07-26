@@ -1,0 +1,94 @@
+1. Basic Information
+•	Company Name:Simetric
+•	Tagline/Slogan: Engineering insight through simulation
+•	Logo: (Upload file)....
+•	Contact Email: 1damit41@gmail.com
+•	Phone Number:8797740665
+•	Official Address:...
+•	Website Domain (if already purchased):
+•	Social Media Links (LinkedIn, etc.):.....
+________________________________________
+2. About the Company
+•	Brief Company Description:
+Simetrix — Brief Company Description
+•	
+•	Simetrix is an engineering design and simulation consultancy specializing in advanced Finite Element Analysis (FEA) and CAD modeling.
+•	We empower global clients to create safer, lighter, and more cost‑effective products by blending engineering expertise with simulation‑driven design.
+•	
+•	At Simetrix, we focus on: ✅ Structural & thermal analysis
+•	✅ CAD design & optimization
+•	✅ Welded structures, trailer axles, automotive chassis, and industrial components
+•	✅ Professional design documentation and validation reports
+•	
+•	With a passion for precision and innovation, we help manufacturers and startups worldwide reduce prototyping costs, shorten development cycles, and bring better products to market — faster.
+•	
+•	Design. Simulate. Optimize.
+•	Mission / Vision Statement:
+•	Mission (Creative, slightly aspirational)
+•	
+•	> To unlock the true potential of engineering designs by combining advanced simulation, creative problem‑solving, and data‑driven insights — making products safer, leaner, and market‑ready.
+•	
+•	
+•	
+•	
+•	---
+•	
+•	🚀 Vision (Creative, slightly aspirational)
+•	
+•	> To be the catalyst that redefines how industries worldwide design, validate, and optimize products — making simulation an everyday driver of innovation and sustainability.
+•	Founders / Team Info (optional):
+(Name, Role, Short Bio, Photos)
+________________________________________
+3. Services Offered
+Please describe or confirm the following services (modify if needed):
+✅ Service 	✔Description	Edit or Confirm
+Finite Element Analysis (ANSYS)	Structural, thermal, vibration analysis	[ ✔]
+CAD Design & 3D Modeling	CATIA, Siemens NX	[ ✔]
+Weight & Cost Optimization	Reduce mass and cost while maintaining strength	[ ✔]
+Weld & Fatigue Life Assessment	Durability testing and prediction	[ ✔]
+Reverse Engineering	Convert physical parts into CAD data	[ ✔]
+Design Documentation	DFMEA, BOM, Technical Reports	[ ✔]
+Add any additional services you'd like to include:
+________________________________________
+4. Industries Served
+Tick all that apply or add more:
+•	Commercial Vehicles 🚚✔
+•	Trailers axles & Suspension Systems ⚙✔
+•	Industrial Machinery 🔩✔
+•	EV & Battery Housings 🔋✔
+•	Others: aerospace,
+________________________________________
+5. Why Choose Us
+List key advantages or confirm the ones below:
+•	✅ Practical, manufacturable design solutions
+•	✅ Faster design cycles → reduced cost & lead time
+•	✅ Transparent communication & professional reports
+•	✅ Global delivery from India
+Edit or add your unique selling points:
+________________________________________
+6. Website Specifications
+•	How many pages do you need?
+(e.g. Home, About Us, Services, Case Studies, Contact, Blog, etc.)
+•	Do you want a Blog or News Section? [Yes✔/No]
+•	Do you need a Contact Form? [Yes✔/No]
+•	Do you need a Quote Request / Inquiry Form? [Yes✔/No]
+•	Do you need client testimonials or case studies? [Yes✔/No]
+•	Do you have content ready for all pages? [Yes/No✔]
+________________________________________
+7. Design & Functionality
+•	Preferred Color Scheme / Brand Colors: not yet decided 
+•	Do you have reference websites you like?
+(Please provide links or names)
+•	Should the website be mobile-responsive? [Yes✔/No]
+•	Any animations or interactive sections needed? [Yes✔/No]
+(If yes, describe briefly)
+________________________________________
+8. Technical Requirements
+•	Do you need SEO optimization? [Yes✔/No]
+•	Do you want Google Analytics or Search Console setup? [Yes✔/No]
+•	Will you need hosting & domain support? [Yes✔/No]
+•	Do you want website security (SSL)? [Yes✔/No]
+________________________________________
+9. Maintenance & Support
+•	Do you need regular website updates & maintenance? [Yes✔/No]
+•	How often do you plan to update content (news/services)? Monthly 
