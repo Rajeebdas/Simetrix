@@ -1,16 +1,14 @@
-import { useQuery } from "@tanstack/react-query";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CTA } from "@/components/sections/cta";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, User, Clock } from "lucide-react";
-import type { CaseStudy } from "@shared/schema";
+import { staticCaseStudies } from "@/data/static-data";
 
 export default function CaseStudies() {
-  const { data: caseStudies, isLoading } = useQuery<CaseStudy[]>({
-    queryKey: ["/api/case-studies"],
-  });
+  const caseStudies = staticCaseStudies;
+  const isLoading = false;
 
   return (
     <div className="min-h-screen bg-white">
@@ -50,7 +48,7 @@ export default function CaseStudies() {
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {caseStudies?.map((study) => (
+              {caseStudies.map((study) => (
                 <Card key={study.id} className="bg-white hover:shadow-xl transition-shadow duration-300 group">
                   {study.imageUrl && (
                     <img 

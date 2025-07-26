@@ -1,8 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { ContactForm } from "@/components/forms/contact-form";
-import { QuoteForm } from "@/components/forms/quote-form";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { EmailContactForm } from "@/components/forms/email-contact-form";
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 
 export default function Contact() {
@@ -37,7 +35,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-secondary">1damit41@gmail.com</div>
+                    <div className="text-secondary">contact@simetric.com</div>
                   </div>
                 </div>
 
@@ -47,7 +45,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-secondary">+91 8797740665</div>
+                    <div className="text-secondary">+1 (555) 123-4567</div>
                   </div>
                 </div>
 
@@ -96,28 +94,12 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Contact Forms */}
+            {/* Contact Form */}
             <div>
-              <Tabs defaultValue="contact" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 mb-8">
-                  <TabsTrigger value="contact">General Inquiry</TabsTrigger>
-                  <TabsTrigger value="quote">Request Quote</TabsTrigger>
-                </TabsList>
-                
-                <TabsContent value="contact">
-                  <div className="bg-white p-6 rounded-xl border">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-6">Send us a message</h3>
-                    <ContactForm />
-                  </div>
-                </TabsContent>
-                
-                <TabsContent value="quote">
-                  <div className="bg-white p-6 rounded-xl border">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-6">Get a detailed quote</h3>
-                    <QuoteForm />
-                  </div>
-                </TabsContent>
-              </Tabs>
+              <div className="bg-white p-6 rounded-xl border">
+                <h3 className="text-xl font-semibold text-gray-900 mb-6">Send us a message</h3>
+                <EmailContactForm />
+              </div>
             </div>
           </div>
         </div>

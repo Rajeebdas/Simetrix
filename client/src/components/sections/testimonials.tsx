@@ -1,12 +1,10 @@
-import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
-import type { Testimonial } from "@shared/schema";
+import { staticTestimonials } from "@/data/static-data";
 
 export function Testimonials() {
-  const { data: testimonials, isLoading } = useQuery<Testimonial[]>({
-    queryKey: ["/api/testimonials/featured"],
-  });
+  const testimonials = staticTestimonials;
+  const isLoading = false;
 
   if (isLoading) {
     return (
@@ -48,7 +46,7 @@ export function Testimonials() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials?.map((testimonial, index) => (
+          {testimonials.map((testimonial, index) => (
             <Card key={testimonial.id} className={`bg-white fade-in stagger-${(index % 3) + 1} transform hover:scale-105 hover:shadow-xl transition-all duration-300`}>
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
