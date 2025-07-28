@@ -1,4 +1,4 @@
-import evBatteryImage from "@assets/vecteezy_electric-cars-with-pack-of-battery-cells-module-on-platform_22190916.jpg";
+import evBatteryImage from "@assets/Electrical-vehical.jpg";
 
 export function Industries() {
   const industries = [
