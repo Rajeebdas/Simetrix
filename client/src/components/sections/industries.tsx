@@ -18,7 +18,7 @@ export function Industries() {
     {
       title: "EV & Battery Systems",
       description: "Battery housings, EV chassis, and electric vehicle component design",
-      image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300"
+      image: "https://www.vecteezy.com/photo/22190916-electric-cars-with-pack-of-battery-cells-module-on-platform-in-a-row"
     }
   ];
 

@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { MobileMenu } from "@/components/ui/mobile-menu";
 import { Menu, X } from "lucide-react";
+import heroLogo from "@assets/hero-logo.svg";
 
 export function Header() {
   const [location] = useLocation();
@@ -29,8 +30,11 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <div className="text-2xl font-bold text-primary">Simetric</div>
-              <div className="text-xs text-secondary">Engineering insight through simulation</div>
+              <img 
+                src={heroLogo} 
+                alt="Simetric - Engineering insight through simulation" 
+                className="h-12 w-auto hover:scale-105 transition-transform duration-300"
+              />
             </Link>
           </div>
           

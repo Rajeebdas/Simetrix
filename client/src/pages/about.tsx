@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { PageMeta } from "@/components/layout/page-meta";
 import { CheckCircle, Target, Eye } from "lucide-react";
 
 export default function About() {
@@ -23,6 +24,12 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-white">
+      <PageMeta 
+        title="About Us"
+        description="Learn about Simetric's engineering expertise in FEA analysis, CAD modeling, and simulation-driven design. Discover our mission to create safer, lighter, and more cost-effective products."
+        keywords="about simetric, engineering company, FEA experts, CAD modeling specialists, simulation engineering team"
+        canonical="https://simetric.com/about"
+      />
       <Header />
       
       {/* Hero Section */}

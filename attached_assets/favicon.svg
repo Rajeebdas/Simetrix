@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#2563eb" stroke="#1e3a8a" stroke-width="1"/>
+  
+  <!-- Engineering symbol -->
+  <g transform="translate(16, 16)" fill="white">
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="1.5" fill="white"/>
+    
+    <!-- Cross lines -->
+    <line x1="-8" y1="0" x2="-3" y2="0" stroke="white" stroke-width="1.5"/>
+    <line x1="3" y1="0" x2="8" y2="0" stroke="white" stroke-width="1.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-3" stroke="white" stroke-width="1.5"/>
+    <line x1="0" y1="3" x2="0" y2="8" stroke="white" stroke-width="1.5"/>
+    
+    <!-- Corner elements -->
+    <polygon points="-6,-6 -3,-6 -3,-3" fill="white"/>
+    <polygon points="6,-6 3,-6 3,-3" fill="white"/>
+    <polygon points="-6,6 -3,6 -3,3" fill="white"/>
+    <polygon points="6,6 3,6 3,3" fill="white"/>
+  </g>
+</svg>
