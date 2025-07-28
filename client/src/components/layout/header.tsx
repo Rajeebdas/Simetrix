@@ -25,32 +25,30 @@ export function Header() {
   ];
 
   return (
-    <nav className="bg-white/95 backdrop-blur-lg shadow-xl sticky top-0 z-50 border-b border-gray-100">
+     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+          <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
               <img
                 src={heroLogo}
                 alt="Simetric - Engineering insight through simulation"
-                className="h-16 w-auto hover:scale-105 transition-transform duration-300"
+                className="h-20 w-auto hover:scale-105 transition-transform duration-300"
               />
             </Link>
           </div>
 
           <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-8">
+            <div className="ml-10 flex items-baseline space-x-8">
               {navigationItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   className={`${
                     isActive(item.href)
-                      ? "text-primary font-semibold relative"
-                      : "text-secondary hover:text-primary font-medium"
-                  } transition-all duration-300 py-2 px-4 rounded-full hover:bg-gray-50 ${
-                    isActive(item.href) ? 'after:absolute after:bottom-0 after:left-1/2 after:transform after:-translate-x-1/2 after:w-2 after:h-2 after:bg-primary after:rounded-full' : ''
-                  }`}
+                  ? "text-primary font-medium"
+                  : "text-secondary hover:text-primary"
+                  } transition-colors`}
                 >
                   {item.label}
                 </Link>
@@ -64,7 +62,7 @@ export function Header() {
               variant="ghost"
               size="sm"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-secondary hover:text-primary p-3 rounded-full hover:bg-gray-50"
+              className="text-secondary hover:text-primary"
             >
               {isMobileMenuOpen ? (
                 <X className="h-6 w-6" />
