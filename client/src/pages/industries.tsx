@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Industries } from "@/components/sections/industries";
 import { CTA } from "@/components/sections/cta";
+import evBatteryImage from "@assets/vecteezy_electric-cars-with-pack-of-battery-cells-module-on-platform_22190916.jpg";
 
 export default function IndustriesPage() {
   const industryDetails = [
@@ -47,7 +48,7 @@ export default function IndustriesPage() {
         "Thermal management systems",
         "Safety compliance"
       ],
-      image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+      image: evBatteryImage
     }
   ];
 
