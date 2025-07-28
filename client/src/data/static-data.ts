@@ -3,7 +3,7 @@
 export const staticTestimonials = [
   {
     id: "1",
-    name: "Sarah Johnson",
+    name: "R.K. Sharma",
     position: "Engineering Director",
     company: "MechTech Industries",
     content: "Simetric's FEA analysis helped us reduce our product weight by 25% while maintaining structural integrity. Their expertise in simulation-driven design is exceptional.",
@@ -13,7 +13,7 @@ export const staticTestimonials = [
   },
   {
     id: "2", 
-    name: "Michael Chen",
+    name: "D Mukesh KUmar",
     position: "Lead Design Engineer",
     company: "AutoCorp Manufacturing",
     content: "The CAD modeling and optimization work delivered by Simetric exceeded our expectations. They helped us achieve significant cost savings in our manufacturing process.",
@@ -23,7 +23,7 @@ export const staticTestimonials = [
   },
   {
     id: "3",
-    name: "Lisa Rodriguez",
+    name: "Er Prince Reddy",
     position: "Project Manager", 
     company: "Heavy Machinery Co",
     content: "Professional, timely, and results-driven. Simetric's reverse engineering services helped us modernize our legacy equipment design efficiently.",
