@@ -52,13 +52,7 @@ export function Header() {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <Link href="/contact">
-              <Button className="bg-primary text-white hover:bg-blue-700 transition-all duration-300">
-                Contact Us
-              </Button>
-            </Link>
-          </div>
+
 
           {/* Mobile menu button */}
           <div className="md:hidden">
