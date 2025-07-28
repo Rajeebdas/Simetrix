@@ -5,7 +5,7 @@ import { Stats } from "@/components/sections/stats";
 import { Services } from "@/components/sections/services";
 import { Industries } from "@/components/sections/industries";
 import { Testimonials } from "@/components/sections/testimonials";
-import { CTA } from "@/components/sections/cta";
+
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Services />
       <Industries />
       <Testimonials />
-      <CTA />
+
       <Footer />
     </div>
   );
