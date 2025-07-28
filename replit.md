@@ -121,6 +121,7 @@ The application follows a full-stack monorepo structure with clear separation be
   - Removed CTA section buttons ("Start Your Project" and "Schedule Consultation")
 - **Security Enhancement**: Ensured proper client/server separation and security practices
 - **Content Editing Guide**: Created comprehensive EDITING_GUIDE.md for user to modify text and images
+- **Custom Image Integration**: Replaced hero section with custom engineering SVG, created IMAGE_REPLACEMENT_GUIDE.md
 
 ### UI/UX Improvements
 - **Blog Page Removal**: Completely removed blog functionality from navigation and routing per user request

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import heroImage from "@assets/hero-engineering.svg";
 
 export function Hero() {
   return (
@@ -30,7 +31,7 @@ export function Hero() {
           <div className="relative slide-in-right">
             <div className="animate-float">
               <img 
-                src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src={heroImage} 
                 alt="Advanced engineering simulation and CAD modeling workspace" 
                 className="rounded-xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-500" 
               />
