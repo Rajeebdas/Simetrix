@@ -28,7 +28,13 @@ export function MobileMenu({ isOpen, onClose, navigationItems, isActive }: Mobil
             {item.label}
           </Link>
         ))}
-
+        <div className="px-3 py-2">
+          <Link href="/contact" onClick={onClose}>
+            <Button className="w-full bg-primary text-white hover:bg-blue-700 transition-all duration-300">
+              Contact Us
+            </Button>
+          </Link>
+        </div>
       </div>
     </div>
   );
