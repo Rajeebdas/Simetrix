@@ -1,3 +1,5 @@
+import evBatteryImage from "@assets/vecteezy_electric-cars-with-pack-of-battery-cells-module-on-platform_22190916.jpg";
+
 export function Industries() {
   const industries = [
     {
@@ -18,7 +20,7 @@ export function Industries() {
     {
       title: "EV & Battery Systems",
       description: "Battery housings, EV chassis, and electric vehicle component design",
-      image: "https://www.vecteezy.com/photo/22190916-electric-cars-with-pack-of-battery-cells-module-on-platform-in-a-row"
+      image: evBatteryImage
     }
   ];
 

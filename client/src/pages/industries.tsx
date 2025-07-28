@@ -2,7 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Industries } from "@/components/sections/industries";
 import { CTA } from "@/components/sections/cta";
-import evBatteryImage from "@assets/vecteezy_electric-cars-with-pack-of-battery-cells-module-on-platform_22190916.jpg";
+import evBatteryImage from "@assets/Electrical-vehical.jpg";
 
 export default function IndustriesPage() {
   const industryDetails = [
