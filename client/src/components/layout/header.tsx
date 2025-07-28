@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { MobileMenu } from "@/components/ui/mobile-menu";
 import { Menu, X } from "lucide-react";
-import heroLogo from "@assets/hero-logo.svg";
+import heroLogo from "@assets/hero-logo.png";
 
 export function Header() {
   const [location] = useLocation();
