@@ -10,7 +10,7 @@ interface PageMetaProps {
 export function PageMeta({ title, description, keywords, canonical }: PageMetaProps) {
   useEffect(() => {
     // Update page title
-    document.title = `${title} | Simetric - Engineering Insight Through Simulation`;
+    document.title = `${title} | Simetrix - Engineering Insight Through Simulation`;
     
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');

@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { PageMeta } from "@/components/layout/page-meta";
 import { CheckCircle, Target, Eye } from "lucide-react";
+import aboutImage from "@assets/About.png";
 
 export default function About() {
   const values = [
@@ -26,17 +27,17 @@ export default function About() {
     <div className="min-h-screen bg-white">
       <PageMeta 
         title="About Us"
-        description="Learn about Simetric's engineering expertise in FEA analysis, CAD modeling, and simulation-driven design. Discover our mission to create safer, lighter, and more cost-effective products."
-        keywords="about simetric, engineering company, FEA experts, CAD modeling specialists, simulation engineering team"
-        canonical="https://simetric.com/about"
+        description="Learn about Simetrix's engineering expertise in FEA analysis, CAD modeling, and simulation-driven design. Discover our mission to create safer, lighter, and more cost-effective products."
+        keywords="about simetrix, engineering company, FEA experts, CAD modeling specialists, simulation engineering team"
+        canonical="https://simetrix.com/about"
       />
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-slate-50 py-20">
+      <section className="bg-slate-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Simetric</h1>
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Simetrix</h1>
             <p className="text-xl text-secondary max-w-3xl mx-auto">
               Engineering insight through simulation-driven design excellence
             </p>
@@ -45,17 +46,17 @@ export default function About() {
       </section>
 
       {/* Company Description */}
-      <section className="py-20">
+      <section className="py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
               <div className="space-y-6 text-lg text-secondary leading-relaxed">
                 <p>
-                  Simetric is an engineering design and simulation consultancy specializing in advanced Finite Element Analysis (FEA) and CAD modeling. We empower global clients to create safer, lighter, and more cost-effective products by blending engineering expertise with simulation-driven design.
+                  Simetrix is an engineering design and simulation consultancy specializing in advanced Finite Element Analysis (FEA) and CAD modeling. We empower global clients to create safer, lighter, and more cost-effective products by blending engineering expertise with simulation-driven design.
                 </p>
                 <p>
-                  At Simetric, we focus on structural & thermal analysis, CAD design & optimization, welded structures, trailer axles, automotive chassis, and industrial components, along with professional design documentation and validation reports.
+                  At Simetrix, we focus on structural & thermal analysis, CAD design & optimization, welded structures, trailer axles, automotive chassis, and industrial components, along with professional design documentation and validation reports.
                 </p>
                 <p>
                   With a passion for precision and innovation, we help manufacturers and startups worldwide reduce prototyping costs, shorten development cycles, and bring better products to market — faster.
@@ -64,7 +65,7 @@ export default function About() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                src={aboutImage}
                 alt="Professional engineering team collaborating"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -127,7 +128,7 @@ export default function About() {
       <section className="bg-slate-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Simetric?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Simetrix?</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -19,10 +19,10 @@ export function MobileMenu({ isOpen, onClose, navigationItems, isActive }: Mobil
             key={item.href}
             href={item.href}
             onClick={onClose}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
+            className={`block px-3 py-3 rounded-md text-lg font-medium transition-all duration-300 ${
               isActive(item.href)
-                ? "text-primary bg-blue-50"
-                : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                ? "text-primary bg-blue-50 font-semibold"
+                : "text-gray-700 hover:text-primary hover:bg-gray-50 hover:font-semibold"
             }`}
           >
             {item.label}

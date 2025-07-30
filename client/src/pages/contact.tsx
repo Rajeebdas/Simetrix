@@ -40,7 +40,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-secondary">contact@simetric.com</div>
+                    <div className="text-secondary">contact@simetrix.com</div>
                   </div>
                 </div>
 
@@ -50,7 +50,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-secondary">+1 (555) 123-4567</div>
+                    <div className="text-secondary">+91 8797740665</div>
+                    <div className="text-secondary">+91 6203848450</div>
                   </div>
                 </div>
 

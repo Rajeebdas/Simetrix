@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { useEffect } from "react";
 import { initGA } from "./lib/analytics";
 import { useAnalytics } from "./hooks/use-analytics";
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 import Home from "@/pages/home";
 import About from "@/pages/about";
@@ -46,6 +47,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <ScrollToTop />
         <Router />
         <Toaster />
       </TooltipProvider>

@@ -13,9 +13,9 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50">
       <PageMeta 
         title="Home"
-        description="Simetric provides advanced FEA analysis, CAD modeling, and simulation-driven design services. Helping global clients create safer, lighter, and more cost-effective products through engineering simulation."
+        description="Simetrix provides advanced FEA analysis, CAD modeling, and simulation-driven design services. Helping global clients create safer, lighter, and more cost-effective products through engineering simulation."
         keywords="FEA analysis, CAD modeling, engineering simulation, finite element analysis, structural analysis, weight optimization, product design, engineering consultancy"
-        canonical="https://simetric.com"
+        canonical="https://simetrix.com"
       />
       <Header />
       <Hero />

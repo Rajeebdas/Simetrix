@@ -1,4 +1,5 @@
 // Static data for testimonials and case studies - no database needed
+import evBatteryImage from "@assets/Electrical-vehical.jpg";
 
 export const staticTestimonials = [
   {
@@ -6,7 +7,7 @@ export const staticTestimonials = [
     name: "R.K. Sharma",
     position: "Engineering Director",
     company: "MechTech Industries",
-    content: "Simetric's FEA analysis helped us reduce our product weight by 25% while maintaining structural integrity. Their expertise in simulation-driven design is exceptional.",
+    content: "Simetrix's FEA analysis helped us reduce our product weight by 25% while maintaining structural integrity. Their expertise in simulation-driven design is exceptional.",
     rating: 5,
     featured: true,
     createdAt: new Date('2024-01-15')
@@ -16,7 +17,7 @@ export const staticTestimonials = [
     name: "D Mukesh KUmar",
     position: "Lead Design Engineer",
     company: "AutoCorp Manufacturing",
-    content: "The CAD modeling and optimization work delivered by Simetric exceeded our expectations. They helped us achieve significant cost savings in our manufacturing process.",
+    content: "The CAD modeling and optimization work delivered by Simetrix exceeded our expectations. They helped us achieve significant cost savings in our manufacturing process.",
     rating: 5,
     featured: true,
     createdAt: new Date('2024-02-20')
@@ -26,7 +27,7 @@ export const staticTestimonials = [
     name: "Er Prince Reddy",
     position: "Project Manager", 
     company: "Heavy Machinery Co",
-    content: "Professional, timely, and results-driven. Simetric's reverse engineering services helped us modernize our legacy equipment design efficiently.",
+    content: "Professional, timely, and results-driven. Simetrix's reverse engineering services helped us modernize our legacy equipment design efficiently.",
     rating: 5,
     featured: true,
     createdAt: new Date('2024-03-10')
@@ -58,7 +59,7 @@ export const staticCaseStudies = [
     solution: "Created advanced CAD model in CATIA with integrated cooling channels. Performed comprehensive crash simulation and thermal analysis to optimize design.",
     results: "30% lighter than previous design, improved thermal efficiency by 25%, passed all crash safety tests, and reduced assembly time by 40%.",
     timeline: "12 weeks",
-    imageUrl: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    imageUrl: evBatteryImage,
     featured: true,
     createdAt: new Date('2024-02-01')
   },

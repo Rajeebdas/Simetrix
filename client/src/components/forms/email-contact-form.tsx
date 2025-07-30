@@ -41,7 +41,7 @@ export function EmailContactForm() {
     try {
       // Create mailto link with form data
       const subject = `Engineering Consultation Request - ${formData.service}`;
-      const body = `Hello Simetric Team,
+      const body = `Hello Simetrix Team,
 
 I am interested in your engineering services and would like to discuss my project requirements.
 
@@ -60,7 +60,7 @@ Newsletter Subscription: ${formData.newsletter ? "Yes" : "No"}
 Best regards,
 ${formData.firstName} ${formData.lastName}`;
 
-      const mailtoLink = `mailto:contact@simetric.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailtoLink = `mailto:contact@simetrix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       
       // Open email client
       window.location.href = mailtoLink;
@@ -84,7 +84,7 @@ ${formData.firstName} ${formData.lastName}`;
     } catch (error) {
       toast({
         title: "Error",
-        description: "Something went wrong. Please try again or contact us directly at contact@simetric.com",
+        description: "Something went wrong. Please try again or contact us directly at contact@simetrix.com",
         variant: "destructive",
       });
     } finally {
@@ -189,7 +189,7 @@ ${formData.firstName} ${formData.lastName}`;
 
       <div className="text-center text-sm text-secondary">
         <p>You can also reach us directly at:</p>
-        <p className="font-semibold text-primary">contact@simetric.com</p>
+                        <p className="font-semibold text-primary">contact@simetrix.com</p>
         <p className="mt-2">We typically respond within 24 hours.</p>
       </div>
     </form>
