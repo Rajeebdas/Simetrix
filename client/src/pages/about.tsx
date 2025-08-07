@@ -2,7 +2,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { PageMeta } from "@/components/layout/page-meta";
 import { CheckCircle, Target, Eye } from "lucide-react";
-import aboutImage from "@assets/About.png";
+import aboutImage from "@assets/About1.mp4";
 
 export default function About() {
   const values = [
@@ -56,7 +56,7 @@ export default function About() {
                   Simetrix is an engineering design and simulation consultancy specializing in advanced Finite Element Analysis (FEA) and CAD modeling. We empower global clients to create safer, lighter, and more cost-effective products by blending engineering expertise with simulation-driven design.
                 </p>
                 <p>
-                  At Simetrix, we focus on structural & thermal analysis, CAD design & optimization, welded structures, trailer axles, automotive chassis, and industrial components, along with professional design documentation and validation reports.
+                  At Simetrix, we focus on structural & thermal analysis, CAD design & optimization, welded structures, trailer & tractor (Chassis, Suspension, Axle, Landing, Leg, etc) and industrial components along with professional design documentation and validation reports.
                 </p>
                 <p>
                   With a passion for precision and innovation, we help manufacturers and startups worldwide reduce prototyping costs, shorten development cycles, and bring better products to market — faster.

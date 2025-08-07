@@ -87,7 +87,7 @@ export function Footer() {
                   href="/industries"
                   className="hover:text-white transition-colors"
                 >
-                  Trailers & Suspension
+                  Trailers, Tractors & Heavy Vehicle
                 </Link>
               </li>
               <li>

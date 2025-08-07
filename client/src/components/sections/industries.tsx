@@ -17,9 +17,9 @@ export function Industries() {
         "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
-      title: "Trailers & Suspension",
+      title: "Trailers Tractor & Heavy vehicle",
       description:
-        "Axle systems, suspension components, and trailer structural engineering",
+        "Axle system, Air         + Mechanical suspension system,Landing and trailer structural engineering",
       image:
         "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
