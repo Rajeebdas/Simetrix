@@ -68,7 +68,6 @@ export default function About() {
                 src={aboutImage}
                 alt="Professional engineering team collaborating"
                 className="rounded-xl shadow-lg w-full h-auto"
-                controls
                 muted
                 autoPlay
                 loop
