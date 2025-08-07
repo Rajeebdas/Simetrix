@@ -72,6 +72,8 @@ export default function About() {
                 muted
                 autoPlay
                 loop
+                playsInline
+                preload="auto"
               />
             </div>
           </div>
