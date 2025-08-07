@@ -64,10 +64,14 @@ export default function About() {
               </div>
             </div>
             <div>
-              <img 
+              <video 
                 src={aboutImage}
                 alt="Professional engineering team collaborating"
                 className="rounded-xl shadow-lg w-full h-auto"
+                controls
+                muted
+                autoPlay
+                loop
               />
             </div>
           </div>
